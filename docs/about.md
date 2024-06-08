@@ -1,19 +1,8 @@
 ---
 layout: page
-title: About
+title: Hello!
 permalink: /about/
 # hide_footer: true #this is an option
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+This project was completed by Trey Scheid in June 2024 for an undergraduate data ethics course at the University of California, San Diego for professor David Danks. 

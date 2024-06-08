@@ -32,10 +32,12 @@ remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 plugins:
   - jekyll-feed
 lang: en
-direction: ltr
-permalink: pretty
+# direction: ltr
+# permalink: pretty
 footer_menu: footer
 #fixed_navbar: top #bottom
+# gh_sponsor: Trey-Scheid
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

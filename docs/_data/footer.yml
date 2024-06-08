@@ -1,6 +1,4 @@
-- name: Blog
-  link: /blog/
-- name: About
-  link: /about/
-- name: Privacy Policy
-  link: /privacy-policy/
+- name: Site Repo
+  link: https://github.com/Trey-Scheid/course-caddie
+
+- name: Thank you <3 Trey Scheid

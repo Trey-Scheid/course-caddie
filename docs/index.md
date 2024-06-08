@@ -4,6 +4,19 @@
 
 # layout: home
 show_sidebar: false
-menubar: menu
+# menubar: menu
+title: Course Caddie
+subtitle: Tee Up Your Perfect Schedule
+hero_link: /fake/
+hero_link_text: ACE!
+callouts: ethic_callouts
+
+# tabs: tabs
 ---
+{% include notification.html
+message="Check out this problem statement first!"
+status="is-info"
+dismissable="true" %}
+
 Heres some content...
+

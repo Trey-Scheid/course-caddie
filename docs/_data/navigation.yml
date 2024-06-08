@@ -1,8 +1,13 @@
 # Home
+- name: Ethics
+  link: /ethics/
+  dropdown: 
+    - name: Collection
+      link: /x/
+    - name: Analysis
+      link: /x/
+    - name: Deployment
+      link: /x/
 - name: About
   link: /about/
-- name: Blog
-  link: /blog/
-  dropdown: 
-    - name: Page 2
-      link: /page-2/
+  
