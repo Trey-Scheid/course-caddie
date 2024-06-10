@@ -1,0 +1,8 @@
+- label: Course Caddie Stages
+  items:
+    - name: Data Collection
+      link: /page-1/
+    - name: Data Analysis
+    link: /page-2/
+    - name: Deployment & Use
+    link: /page-3/    
