@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /fake/
 hide_hero: true
 ---
 {% include notification.html

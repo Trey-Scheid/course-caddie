@@ -1,4 +1,6 @@
 ---
+layout: page
+permalink: /page-1/
 show_sidebar: false
 # menubar: menu
 title: Collections

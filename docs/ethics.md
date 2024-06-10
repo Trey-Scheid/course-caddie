@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /ethics/
 title: Ethical Considerations
 subtitle: a datacentric view
 hero_image: /path/to/img.jpg
