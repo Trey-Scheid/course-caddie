@@ -1,6 +1,8 @@
 # Notes for myself on site upkeep
 Last updated June 2024
 
+Followed guidance from [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) using [Jekyll Tutorial](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+
 ## How it was created
 1. Github Repo
     1. Used the name I wanted to be the url (short catchy and descriptive)
@@ -9,11 +11,12 @@ Last updated June 2024
 1. locally made sure I had ruby and bundler using -v
 1. ```mkdir docs```
 1. ```cd docs```
-1. ```bundle init```
+1. ```bundle init``` (use --path?) 
 1. ```bundle add```
-1. Site files generated using Jekyll ```bundle exec jekyll new```
+1. Site files generated using Jekyll ```bundle exec jekyll new --skip-bundle .``` (maybe used force flag as well)
+1. update gem file ```gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins``` (check [here](https://pages.github.com/versions/))
+1. Update .gitignore at some point too with .bundle folder and the 
 1. Change _config.yml theme to bulma (may have ran bundle install again to get the appropriate gems)
-1. 
 
 ## Making Updates
 Make changes to files locally.
