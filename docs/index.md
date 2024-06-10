@@ -1,22 +1,26 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-# layout: home
 show_sidebar: false
 # menubar: menu
 title: Course Caddie
 subtitle: Tee Up Your Perfect Schedule
 hero_link: /fake/
 hero_link_text: ACE!
-callouts: ethic_callouts
-
+callouts: ethic_callout
+pre_callouts: home_precallout
 # tabs: tabs
+# hero_image: /path/to/img.jpg
+# hero_darken: true
+# toc: true
+# menubar_toc: true
+# toc_title: Outline
+description: This site is for PHIL 174 Spring 2024 by Trey Scheid. 
+# image: /img/page-image.jpg #for SEO
 ---
+<!-- see home_precallout.yml for content before the callout -->
 {% include notification.html
 message="Check out this problem statement first!"
 status="is-info"
 dismissable="true" %}
-
+<br>
 Heres some content...
 

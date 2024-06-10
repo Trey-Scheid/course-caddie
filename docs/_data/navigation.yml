@@ -3,11 +3,11 @@
   link: /ethics/
   dropdown: 
     - name: Collection
-      link: /x/
+      link: /page-1/
     - name: Analysis
-      link: /x/
+      link: /page-2/
     - name: Deployment
-      link: /x/
+      link: /page-3/
 - name: About
   link: /about/
   

@@ -1,0 +1,25 @@
+# style: is-light
+height: is-medium
+items:
+  - title: Collection
+    subtitle: Subtitle 1
+    icon: fa-space-shuttle
+    description: >
+      optional description 
+    call_to_action_name: Go
+    call_to_action_link: /page-1/
+  - title: Analysis
+    subtitle: Subtitle 2
+    icon: fa-wrench
+    description: >
+      optional description
+    call_to_action_name: Go
+    call_to_action_link: /page-2/
+  - title: Deployment
+    subtitle: Subtitle 3
+    icon: fa-github
+    icon_brand: false
+    description: >
+      optional description
+    call_to_action_name: Go
+    call_to_action_link: /page-3/
