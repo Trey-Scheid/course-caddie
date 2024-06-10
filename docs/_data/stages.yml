@@ -3,6 +3,6 @@
     - name: Data Collection
       link: /page-1/
     - name: Data Analysis
-    link: /page-2/
+      link: /page-2/
     - name: Deployment & Use
-    link: /page-3/    
+      link: /page-3/    
