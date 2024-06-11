@@ -25,3 +25,9 @@ content: >
   <span class="subtitle">The Solution</span>
 
   This system will find between 1 and 10 courses to a student personalized to their major, experience and the current offerings. The goal will be to reduce time and stress for students, but measured by a proxy: whether the recommendations are used. 
+
+
+
+
+
+  "Good start, though I'm not clear what challenge you will actually be trying to solve -- course recommendations vs. course selection vs. other kinds of guidance? Also, you'll want to be very clear about what counts as "success" for this challenge" DD

@@ -22,5 +22,6 @@ message="Check out this problem statement first!"
 status="is-info"
 dismissable="true" %}
 <br>
-Heres some content...
+I. identifies and explains at least two ways in which proper use of the model could result in
+increased justice in appropriate contexts
 

@@ -38,6 +38,7 @@ footer_menu: footer
 #fixed_navbar: top #bottom
 # gh_sponsor: Trey-Scheid
 
+# theme_color: '#15cc43' # doesn't work
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
