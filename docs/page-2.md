@@ -31,8 +31,16 @@ We will discuss how model revisions can be made, but some choices on how to stor
 
 ## Evaluation
 
+### Output
 
-The choice of metric has many implications on whose values are most supported and which biases we would rather handle. 
+The model output format is complicated decision. Assuming that we restrict our model to output the top X ranked recommendations based on most similar, most appropriate course offerings. (The rank condition may vary depending on the model). 
+- One way to evaluate model results is to create a binary feature that tracks if the student enrolls in and passes at least one suggested course, or not. This choice reflects a desire for practical suggestions which lead to courses theres space for, and the student is succesful in.  
+- Another method is to track how many courses students add to their cart/plan within the enrollment system. This prioritizes student interest in a course over the feasibility, this is more susceptible to noisy data considering behavior may include arbitrarily planning or not planning all the courses: this is not a perfect proxy for interest. 
+The choice of X is also an ethical one. For small values 1-3, would injustices really be lowered, would more breadth classes ever reach the top? Would popular courses that gauruntee high interest due to name recognition, or easy grades intice enrollment? For large values 5-10 would students use the tool the same, spending effort to double check the course details (getting into Use), if not then would low energy or confused students still gain the benefit of the system? Low to high also affects the algorithmic optimization as the model has more or less flexibility. Forcing the model to choose a contant number of predictions is also a choice, (compared to thresholding), because, choosing one value creates these tradeoffs in the first place!
+
+### Metric
+
+Naturally, metric coincides with output format. The choice of metric has many implications on whose values are most supported and which biases we would rather handle. Make sure to research for your specific model what the tradoffs are for metric choices and test, maybe with post-hoc tools again, for demographic differences in output quality for each. A way to make this comparison of "output quality" would be a positive criteria for each metric if it leads to better performance on your chosen evaluation principle from the last discussion point (i.e. passing grade).
 
 <!-- E. identifies at least two different potential ethical concerns about analyzing/modeling these
 data for that goal

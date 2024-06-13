@@ -2,6 +2,7 @@
 layout: page
 title: Hello!
 permalink: /about/
+hero_height: is-small
 # hide_footer: true #this is an option
 ---
 # About Course Caddie
