@@ -1,5 +1,5 @@
 # style: is-light
-height: is-medium
+height: is-small
 title: Welcome
 content: >
   This is your introduction to Course Caddie! The totally real recommender system made to suit your needs as a busy UC San Diego student. Your personal caddie ready to serve you up a schedule made to crush your next quarter. 
@@ -7,27 +7,26 @@ content: >
   
   <span class="title is-5">Why Me?</span>
 
-  Do you enroll in courses multiple times a year?
 
-  Do you have requirements you need to graduate?
+  - Do you enroll in courses multiple times a year?
 
-  Do you have hobbies, work or other interests besides staring at the course catelog and degree audit?
+  - Do you have requirements you need to graduate?
+
+  - Do you have hobbies, work or other interests besides staring at the course catelog and degree audit?
 
 
-  Preparing for enrollment appointment times is a frustrating, stressful, boring and yet necessary task all students face regularly. Some say they don't care, some create rigid plans, and others enjoy the process. No matter your relationship with course selection, there is room for course recommendations in your workflow.
+  Preparing for enrollment appointment times is a frustrating, stressful, boring and yet necessary task students face regularly. Some say they don't care, some create rigid plans, and others enjoy the process. No matter your relationship with course selection, there is room for course recommendations in your workflow.
+
 
 
   <span class="subtitle">The Problem</span>
 
-  The pain points expressed above indicate some common themes; students waste time on course enrollment prep due to repetitive research. They check the same requirements pages, course offerings sites, web reg and for some, their personal spreadsheets as well. Each time they are looking to optimize for the same things, check off requirements, find fun classes that are offered and they meet the prerequisites. This makes it an appropriate setting for ML application, although there still lies many challenges in the various data sources (types and access). 
+
+  The pain points expressed above indicate some themes with a common origin: students waste time on course enrollment prep due to repetitive research. They check the same requirements pages, course offerings sites, and their personal plans. Each time they look to optimize the same values: requirement completion, fun and accessibility. This makes it an appropriate setting for ML application, although there still lies many challenges in the various data sources (types and access). 
+
 
 
   <span class="subtitle">The Solution</span>
 
-  This system will find between 1 and 10 courses to a student personalized to their major, experience and the current offerings. The goal will be to reduce time and stress for students, but measured by a proxy: whether the recommendations are used. 
 
-
-
-
-
-  "Good start, though I'm not clear what challenge you will actually be trying to solve -- course recommendations vs. course selection vs. other kinds of guidance? Also, you'll want to be very clear about what counts as "success" for this challenge" DD
+  This system will find between 1 and 10 courses to a student personalized to their major, experience and the current offerings. The goal will be to reduce time and stress for students, but measured by an accessible proxy: The number of recommended courses the student enrolls in (details on model evaluation explored in Analysis and Deployment)

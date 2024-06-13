@@ -1,25 +1,25 @@
 # style: is-light
-height: is-medium
+height: is-small
 items:
   - title: Collection
-    subtitle: Subtitle 1
-    icon: fa-space-shuttle
-    description: >
-      optional description 
-    call_to_action_name: Go
+    subtitle: Stage 1
+    icon: fa-download
+    # description: >
+       
+    call_to_action_name: Start
     call_to_action_link: /page-1/
   - title: Analysis
-    subtitle: Subtitle 2
-    icon: fa-wrench
-    description: >
-      optional description
-    call_to_action_name: Go
+    subtitle: Stage 2
+    icon: fa-cogs
+    # description: >
+    #   optional description
+    call_to_action_name: Skip
     call_to_action_link: /page-2/
   - title: Deployment
-    subtitle: Subtitle 3
-    icon: fa-github
+    subtitle: Stage 3
+    icon: fa-hands
     icon_brand: false
-    description: >
-      optional description
-    call_to_action_name: Go
+    # description: >
+    #   optional description
+    call_to_action_name: Skip
     call_to_action_link: /page-3/
